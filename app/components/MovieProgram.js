@@ -11,7 +11,7 @@ const filme = [
     limba: "Română",
     detalii: "Limba nativă",
     imagine: "/Casatoria.jpg",
-    ore: ["12:00", "14:30", "16:45", "19:00", "21:15", "23:30"]
+    ore: ["16:00", "17:20", "18:40"]
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const filme = [
     limba: "Română",
     detalii: "Limba nativă",
     imagine: "/BaietiDeOras.jpg",
-    ore: ["13:00", "15:15", "17:30", "19:45", "22:00", "00:15"]
+    ore: ["16.40", "18.10", "19.30"]
   },
   {
     id: 3,
@@ -35,7 +35,7 @@ const filme = [
     limba: "Română",
     detalii: "Limba nativă",
     imagine: "/DragosteLaTara.jpg",
-    ore: ["11:30", "14:00", "16:30", "18:45", "21:00"]
+    ore: ["17.00", "18.30"]
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const filme = [
     limba: "Română",
     detalii: "Limba nativă",
     imagine: "/MoarteaInVacanta.jpg",
-    ore: ["12:45", "15:00", "17:15", "19:30", "21:45", "23:50"]
+    ore: ["16.20", "17.50", "19.20"]
   },
   {
     id: 5,
@@ -59,7 +59,7 @@ const filme = [
     limba: "Engleză",
     detalii: "Subtitrat în Română",
     imagine: "/Scream7.jpg",
-    ore: ["16:00", "18:30", "20:45", "22:15", "23:45", "01:00"]
+    ore: ["16:00", "18:00"]
   }
 ];
 
