@@ -4,8 +4,8 @@ const oferte = [
     titlu: "CINEMARTI",
     descriere: "Cea mai bună zi pentru iubitorii de cinema din Comănești! În fiecare zi de marți, bariera prețului dispare. Te bucuri de cele mai noi producții de la Hollywood, animații pentru copii sau filme de acțiune explozive la un tarif unic redus. Este ocazia perfectă să vii cu toată gașca de prieteni sau cu familia fără să îți faci griji de buget.",
     preturi: [
-      { tip: "Bilet 2D", val: "19.99 lei" },
-      { tip: "Bilet 3D", val: "21.99 lei" }
+      { tip: "Bilet 2D", val: "11.99 lei", tip2: "Bilet 2D Elev", val2:"7.99 lei" },
+      { tip: "Bilet 3D", val: "14.99 lei", tip2: "Bilet 3D Elev", val2:"11.99 lei" }
     ],
     imagine: "/Oferta1.jpg",
     tag: "MARȚI"
@@ -15,7 +15,7 @@ const oferte = [
     titlu: "VOUCHER CADOU",
     descriere: "Transformă o zi obișnuită într-o amintire memorabilă! Voucherele noastre cadou sunt soluția ideală atunci când vrei să oferi o experiență, nu doar un obiect. Pot fi utilizate atât pentru achiziția biletelor la orice film din program, cât și pentru produsele delicioase de la bar. Tu alegi valoarea, ei aleg filmul și momentul preferat.",
     preturi: [
-      { tip: "", val: "" }
+      { tip: "", val: "", tip2: "", val2: ""}
     ],
     imagine: "/Oferta2.jpg",
     tag: "Voucher"
@@ -56,7 +56,9 @@ export default function OfferList() {
                   {oferta.preturi.map((p, idx) => (
                     <div key={idx} className="flex flex-col">
                       <span className="text-[10px] text-zinc-600 font-black uppercase tracking-widest mb-2">{p.tip}</span>
-                      <span className="text-brand-gold font-[900] text-3xl tracking-tighter">{p.val}</span>
+                      <span className="text-brand-gold font-[900] text-3xl tracking-tighter mb-5">{p.val}</span>
+                      <span className="text-[10px] text-zinc-600 font-black uppercase tracking-widest mb-2">{p.tip2}</span>
+                      <span className="text-brand-gold font-[900] text-3xl tracking-tighter">{p.val2}</span>
                     </div>
                   ))}
                 </div>
